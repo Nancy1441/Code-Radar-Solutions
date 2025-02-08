@@ -14,7 +14,7 @@ int main() {
     else{
         printf("%d\n",a/b);
     } break;
-    default: printf("Error: Invalid operator\n");
+    default: printf("Error");
   }
   
     return 0;
