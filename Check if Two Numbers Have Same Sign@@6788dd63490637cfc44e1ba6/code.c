@@ -3,14 +3,11 @@
 int main() {
    char a , b;
    scanf("%d %d",&a,&b);
-   if( a>0 && b>0){
-    printf("Same Sign");
-   }
-   else if (a<0 && b<0){
-    printf("Same Sign");
+   if( a>0 && b<0){
+    printf("Diffrent Sign");
    }
    else{
-    printf("Different Sign");
+    printf("Same Sign");
    }
     return 0;
 }
