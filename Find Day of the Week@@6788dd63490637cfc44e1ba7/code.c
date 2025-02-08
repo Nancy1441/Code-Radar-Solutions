@@ -5,14 +5,14 @@ int main() {
    if(a==1){
     printf("Monday");
    }
-    else if(a==2){
+   else if(a==2){
     printf("Tuesday");
    }
   else if(a==3){
     printf("Wednesday");
    }
   else if(a==4){
-    printf("Thrusday");
+    printf("Thursday");
    }
    else if(a==5){
     printf("Friday");
