@@ -8,12 +8,9 @@ int main() {
     case '+': printf("%d\n",a+b); break;
     case '-': printf("%d\n",a-b); break;
     case '*': printf("%d\n",a*b); break;
-    case '/': if(b==0){
-        printf("Error: Division by zero\n");
-    }
-    else{
+    case '/': 
         printf("%d\n",a/b);
-    } break;
+    break;
     default: printf("Error: Invalid operator\n");
   }
   
