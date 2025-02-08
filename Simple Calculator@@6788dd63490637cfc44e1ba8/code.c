@@ -5,14 +5,14 @@ int main() {
    char ch;
    scanf("%d %d %c",&a,&b,&ch);
   switch(ch){
-    case '+': printf("%d\n",a+b); break;
-    case '-': printf("%d\n",a-b); break;
-    case '*': printf("%d\n",a*b); break;
+    case '+': printf("%d",a+b); break;
+    case '-': printf("%d",a-b); break;
+    case '*': printf("%d",a*b); break;
     case '/': if(b==0){
-        printf("Error: Division by zero\n");
+        printf("Error: Division by zero");
     }
     else{
-        printf("%d\n",a/b);
+        printf("%d",a/b);
     } break;
     default: printf("Error");
   }
