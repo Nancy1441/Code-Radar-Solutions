@@ -9,12 +9,12 @@ int main() {
     case '-': printf("%d\n",a-b); break;
     case '*': printf("%d\n",a*b); break;
     case '/': if(b==0){
-        printf("erroe");
+        printf("Error\n");
     }
     else{
         printf("%d\n",a/b);
     } break;
-    default: printf("Error");
+    default: printf("Error\n");
   }
   
     return 0;
