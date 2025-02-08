@@ -5,7 +5,7 @@ int main() {
     char ch;
 
     // Taking input in the required format
-    printf("Enter two integers and an operator (e.g., 5 3 +): ");
+   
     scanf("%d %d %c", &a, &b, &ch);
 
     switch (ch) {
