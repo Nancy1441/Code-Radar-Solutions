@@ -1,0 +1,17 @@
+// Your code here...
+#include <stdio.h>
+
+int main() {
+   char ch;
+   scanf("%d %d %c", &a,&b,&ch);
+  switch(ch){
+    case 'A': printf("Excellent"); break;
+    case 'B': printf("Good"); break;
+    case 'C': printf("Average"); break;
+    case 'D': printf("elow Average");break;
+    case 'F': printf("Fail"); break;
+    default: printf("Error: Invalid grade\n");
+  }
+  
+    return 0;
+}
