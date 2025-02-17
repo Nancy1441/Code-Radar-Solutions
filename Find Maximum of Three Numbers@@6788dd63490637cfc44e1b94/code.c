@@ -11,11 +11,8 @@ int main() {
     else if(a<b<c){
         printf("%d",c);
     }
-    else if(a<b>c){
-        printf("%d",b);
-    }
     else{
-        printf("no");
+        printf("%d",b);
     }
     return 0;
 }
