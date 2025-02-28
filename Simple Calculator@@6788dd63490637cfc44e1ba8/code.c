@@ -10,7 +10,7 @@ int main() {
     case '*': printf("%d\n",a*b); break;
     case '/': if(b!=0){
         printf("%d\n",a/b);
-        else{printf("error")}
+        else{printf("error");}
     } break;
     default: printf("error");
   }
