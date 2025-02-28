@@ -11,7 +11,7 @@ int main() {
     case '/': if(b!=0){
         printf("%d\n",a/b);
     } break;
-    default: printf("Error: Invalid operator\n");
+    default: printf("error");
   }
   
     return 0;
