@@ -1,12 +1,10 @@
 // Your code here...
 #include <stdio.h>
 
-
 int main() {
-     int a,b,c,d,e;
-    scanf("%d %d",&a,&b,&d);
-   c= (a<<b);
-   e= c&d;
-   printf("%d", e);
+    int a,b;
+    scanf("%d %d",&a,&b);
+    int result=a & ~(1<<b);
+    printf("%d",result);
     return 0;
 }
