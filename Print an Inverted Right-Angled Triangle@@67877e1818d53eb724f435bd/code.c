@@ -6,7 +6,7 @@
  for( r=1; r<=N; r++){
     j=1;
     for( c=N; c>=r; c--){
-    printf("*");
+    printf("* ");
     }
     printf("\n");
  }
