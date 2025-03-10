@@ -8,6 +8,7 @@ int main() {
     num= r;
       for (c = 1; c <= r; c++) {
          printf("%d ",num);
+         num++;
       }
       printf("\n");
    }
