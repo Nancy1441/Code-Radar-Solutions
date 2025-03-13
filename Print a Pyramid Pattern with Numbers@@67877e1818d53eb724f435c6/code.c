@@ -7,10 +7,8 @@
         for(c=1; c<=(n-r); c++){
             printf(" ");
         }
-        int nn;
-        for(c=1; c<=(2*r-1);c++){
-            printf("%d",nn);
-            nn++;
+        for(c=1; c<=r;c++){
+            printf("%d ",c);
         }
         printf("\n");
     }
