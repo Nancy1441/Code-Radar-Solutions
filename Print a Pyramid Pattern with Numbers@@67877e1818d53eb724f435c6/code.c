@@ -8,7 +8,7 @@
             printf(" ");
         }
         int nn;
-        for(c=1; c<=(2*r-2);c++){
+        for(c=1; c<=(2*r-1);c++){
             printf("%d",nn);
             nn++;
         }
