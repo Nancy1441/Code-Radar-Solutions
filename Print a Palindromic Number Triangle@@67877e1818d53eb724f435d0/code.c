@@ -11,7 +11,8 @@
             printf("%d",c);
         }
         for(c=n; c>=1; c--){\
-        printf("%d", c)}
+        printf("%d", c);
+        }
         printf("\n");
     }
     return 0;
