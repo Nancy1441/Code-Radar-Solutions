@@ -8,7 +8,7 @@
             printf(" ");
         }
         for(c=1; c<=(2*r-1);c++){
-            printf("%d",c);
+            printf(" %d ",c);
         }
         printf("\n");
     }
