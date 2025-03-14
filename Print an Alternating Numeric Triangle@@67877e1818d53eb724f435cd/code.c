@@ -7,7 +7,7 @@
         for(c=1; c<=r;c++){
             printf("%d",c%2);
             if(c<r){
-                printf(" ")
+                printf(" ");
             }
             }
         printf("\n");
