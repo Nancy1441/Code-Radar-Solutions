@@ -1,12 +1,12 @@
 // Your code here...
 #include<stdio.h>
  int main(){
-    int r,c,N,num=1;
+    int r,c,N;
     scanf("%d", &N);
     for( r=1; r<=N; r++){
         for(c=1; c<=r;c++){
-            printf("%d ",num%2);
-            num++;
+            printf("%d ",(r+c)%2);
+        
             }
         printf("\n");
     }
